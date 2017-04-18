@@ -3,10 +3,10 @@ var t = 0;
 function convertTemp (t, u) {
   if (u==="C") {
     t = (t-32)*5/9;
-    console.log(t + "C");
+    console.log("The temperature is " + t + " degrees Celsius.");
   } else if (u==="F") {
     t = t * 9/5 + 32;
-    console.log(t + "F");
+    console.log("The temperature is " + t + " degrees Fahrenheit.");
   }
 }
 convertTemp(212, "C"); // > 100
